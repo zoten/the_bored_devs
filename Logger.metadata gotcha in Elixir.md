@@ -64,7 +64,7 @@ We set some metadata in the `Logger.metadata` call, so that any other Logger cal
 
 However, there’s a problem now. As we pictured it, we defined this simple architecture:
 
-![Architecture](https://github.com/zoten/the_bored_devs/assets/logger_metadata_gotcha_in_elixir/arch-1.webp)
+![Architecture]([https://github.com/zoten/the_bored_devs/assets/logger_metadata_gotcha_in_elixir/arch-1.webp](https://github.com/zoten/the_bored_devs/blob/main/assets/logger_metadata_gotcha_in_elixir/arch-1.webp))
 
 We have a single process (the RabbitMQ consumer) and everything happens inside it. What happens is we log an innocent line in the consumer module, then set some metadata in our domain function and execute things, potentially logging other lines. What we all would expect is an output in the form (poetic license on formatting of metadata)
 
