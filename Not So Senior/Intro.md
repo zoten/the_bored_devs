@@ -7,3 +7,5 @@ Except, they happen.
 Let's remember: _junior_, _middle_, _senior_, _staff_, _principal_ ... they are only titles.
 
 We all make mistakes, we all fall in some cyclic misjudgements. We all have impact.
+
+Those are _Things I should already have learned, except I didn't_.
